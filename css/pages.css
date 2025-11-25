@@ -1,0 +1,82 @@
+/* Pages: page-specific styles and tweaks */
+
+/* Hero text */
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-title {
+    margin-bottom: 1.5rem;
+}
+
+.greeting {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--text-muted);
+    margin-bottom: .5rem;
+}
+
+.name {
+    display: block;
+    font-size: 3.5rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: .5rem;
+}
+
+.role {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.hero-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: var(--text-secondary);
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+/* Experience highlights */
+.project-highlight {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, .02);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, .05);
+    transition: all .3s ease;
+}
+
+.project-highlight:last-child {
+    margin-bottom: 0;
+}
+
+.project-highlight:hover {
+    background: rgba(255, 255, 255, .05);
+    border-color: rgba(99, 102, 241, .3);
+}
+
+.project-highlight h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: .5rem;
+}
+
+.project-highlight p {
+    font-size: .9rem;
+    line-height: 1.5;
+    margin: 0;
+    color: var(--text-secondary);
+}
